@@ -1,5 +1,5 @@
 class Instagram:
-    def _init_(self, title, description, creator_name, location):
+    def __init__(self, title, description, creator_name, location):
         self.title = title
         self.description = description
         self.creator_name = creator_name
@@ -37,7 +37,7 @@ class Instagram:
 
 
 
-reel1 = Instagram("dancing", "dancing with friends", "Darshan", "Karnataka")
+reel1 = Instagram ("dancing", "dancing with friends", "Darshan", "Karnataka")
 
 reel1.liked()
 reel1.add_comment("Super Machi")

@@ -7,7 +7,6 @@ class Instagram:
         self.likes = 0
         self.comments = [] 
 
-    # Display methods
     def display_title(self):
         print("The title of the reel is:", self.title)
 
@@ -31,7 +30,6 @@ class Instagram:
         else:
             print("No comments yet.")
 
-    # Interaction methods
     def liked(self):
         self.likes += 1
 
